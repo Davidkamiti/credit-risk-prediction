@@ -9,8 +9,7 @@ The dataset used for training the model includes the following features:
 
 #### person_income : Annual income of the loan applicant.
 
-#### loan_amnt:
-Amount of the loan requested.
+#### loan_amnt:       Amount of the loan requested.
 
 #### loan_grade:
 Grade assigned to the loan by the lender.
