@@ -1,8 +1,10 @@
 # credit-risk-prediction
-Overview
+## Overview
+
 This project aims to develop a machine learning model to predict whether a loan applicant will default on their loan based on various financial and loan-related features. The model is implemented using a Random Forest classifier, which has been fine-tuned for optimal performance. The project also includes a deployment script using Streamlit, which provides an interactive web interface for making predictions.
 
-#Dataset
+## Dataset
+
 The dataset used for training the model includes the following features:
 
 person_income: Annual income of the loan applicant.
