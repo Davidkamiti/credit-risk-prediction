@@ -31,17 +31,21 @@ cb_person_default_on_file : Whether the applicant has any defaults on file (yes/
 
 The model development process involved the following steps:
 
-1. Data Preprocessing: Cleaning the data, handling missing values, and encoding categorical variables.
-2. Model Training: Training a Random Forest classifier on the preprocessed data.
-3. Hyperparameter Tuning: Using GridSearchCV to find the best hyperparameters for the model.
-4. Model Evaluation: Evaluating the model using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC. Cross-validation was also performed to ensure the model's robustness.
+1. Data Preprocessing : Cleaning the data, handling missing values, and encoding categorical variables.
+2. Model Training : Training a Random Forest classifier on the preprocessed data.
+3. Hyperparameter Tuning : Using GridSearchCV to find the best hyperparameters for the model.
+4. Model Evaluation : Evaluating the model using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC. Cross-validation was also performed to ensure the model's robustness.
 ## Results
 After hyperparameter tuning, the model achieved the following performance metrics:
 
 Accuracy: 90%
-Precision: 92% for class 0 (no default) and 81% for class 1 (default)
-Recall: 95% for class 0 and 71% for class 1
-F1-Score: 94% for class 0 and 76% for class 1
+
+Precision : 92% for class 0 (no default) and 81% for class 1 (default)
+
+Recall : 95% for class 0 and 71% for class 1
+
+F1-Score : 94% for class 0 and 76% for class 1
+
 ROC-AUC: 92%
 ## Model Deployment
 
