@@ -7,26 +7,25 @@ This project aims to develop a machine learning model to predict whether a loan 
 
 The dataset used for training the model includes the following features:
 
-#### person_income : Annual income of the loan applicant.
+person_income : Annual income of the loan applicant.
 
-#### loan_amnt:       Amount of the loan requested.
+loan_amnt : Amount of the loan requested.
 
-#### loan_grade:
-Grade assigned to the loan by the lender.
+loan_grade : Grade assigned to the loan by the lender.
 
-loan_intent: The intended use of the loan (e.g., personal, education, medical).
+loan_intent : The intended use of the loan (e.g., personal, education, medical).
 
-loan_int_rate: Interest rate of the loan.
+loan_int_rate : Interest rate of the loan.
 
-person_home_ownership: Home ownership status of the applicant (e.g., rent, own, mortgage).
+person_home_ownership : Home ownership status of the applicant (e.g., rent, own, mortgage).
 
-person_emp_length: Length of employment in years.
+person_emp_length : Length of employment in years.
 
-person_age: Age of the loan applicant.
+person_age : Age of the loan applicant.
 
-cb_person_cred_hist_length: Length of the applicant's credit history.
+cb_person_cred_hist_length : Length of the applicant's credit history.
 
-cb_person_default_on_file: Whether the applicant has any defaults on file (yes/no).
+cb_person_default_on_file : Whether the applicant has any defaults on file (yes/no).
 
 ## Model Development
 
