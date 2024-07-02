@@ -7,11 +7,14 @@ This project aims to develop a machine learning model to predict whether a loan 
 
 The dataset used for training the model includes the following features:
 
-### person_income: Annual income of the loan applicant.
+#### person_income:
+Annual income of the loan applicant.
 
-### loan_amnt: Amount of the loan requested.
+#### loan_amnt:
+Amount of the loan requested.
 
-loan_grade: Grade assigned to the loan by the lender.
+#### loan_grade:
+Grade assigned to the loan by the lender.
 
 loan_intent: The intended use of the loan (e.g., personal, education, medical).
 
