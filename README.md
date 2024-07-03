@@ -1,5 +1,5 @@
 # Credit-risk-prediction
-![Alt text]("C:\Users\DavidKamiti\Downloads\pexels-pixabay-210600.jpg")
+![Alt text]("https://github.com/Davidkamiti/credit-risk-prediction/blob/main/pexels-pixabay-210600.jpg)
 
 
 ## Overview
