@@ -1,5 +1,5 @@
 # Credit-risk-prediction
-![Alt text](C:\Users\DavidKamiti\OneDrive\Documents\predicting credit risk)
+![Alt text]("C:\Users\DavidKamiti\Downloads\pexels-pixabay-210600.jpg")
 
 
 ## Overview
