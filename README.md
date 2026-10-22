@@ -2,10 +2,11 @@
 
 A machine learning model that estimates the probability a loan applicant will default, with an interactive web app for trying it out.
 
-**Live demo:** https://davidkamiti-credit-risk-prediction.streamlit.app
+**Live demo:** https://credit-risk-prediction-xsm9tmmnd8gxkixqihejkg.streamlit.app/
 
-
+<!-- After you take a screenshot of the app, save it as images/app_screenshot.png, then delete this line and the closing line below to show it:
 ![App screenshot](images/app_screenshot.png)
+-->
 
 ## The problem
 
