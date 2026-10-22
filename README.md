@@ -21,7 +21,27 @@ Evaluated on a held-out test set of 5,624 loans, of which 1,205 (about 21%) defa
 | 0.5 (default) | 0.89 | 0.74 | 0.75 | 0.74 |
 | 0.6 | 0.90 | 0.81 | 0.71 | 0.76 |
 
-**ROC-AUC: 0.91**
+**ROC-AUC: 0.91** (0.914 when the app's pipeline is retrained with `train_model.py`; the original notebook run, shown in the chart below, reports 0.92)
+
+### Model performance charts
+
+The charts below come from the original notebook run on the same 5,624-loan test set.
+
+**Confusion matrix at the default 0.5 threshold.** Of 1,205 actual defaulters, the model catches 893 (74%) and misses 312. It also flags 322 borrowers who would have repaid.
+
+![Confusion matrix](images/confusion_matrix.png)
+
+**ROC curve.** The curve stays well above the diagonal (random guessing), with an AUC of 0.92 in this run.
+
+![ROC curve](images/roc_curve.png)
+
+**Precision-recall curve.** Defaulters are the minority class (about 21%), so this view is more informative than ROC. Precision stays high until recall passes about 0.6, then falls steadily. That is the trade-off behind the threshold choice.
+
+![Precision-recall curve](images/precision_recall_curve.png)
+
+**Feature importance (Random Forest).** Income and loan amount matter most, followed by interest rate, loan purpose and loan grade. These importances show what the model relies on, not what causes default.
+
+![Feature importance](images/feature_importance.png)
 
 ### Why two thresholds?
 
@@ -64,6 +84,7 @@ python train_model.py
 | `train_model.py` | Rebuilds the model and saves it with its scaler |
 | `app.py` | Streamlit web app |
 | `model/` | Saved model and decision threshold |
+| `images/` | Charts used in this README |
 | `requirements.txt` | Dependencies for the app |
 
 ## Limitations and what I would do next
