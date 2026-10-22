@@ -4,8 +4,7 @@ A machine learning model that estimates the probability a loan applicant will de
 
 **Live demo:** https://credit-risk-prediction-xsm9tmmnd8gxkixqihejkg.streamlit.app/
 
-![App screenshot]("C:\Users\USER\OneDrive\Pictures\Screenshots\imagesapp_screenshot.png.png")
-
+![App screenshot](images/app_screenshot.png)
 .
 ## The problem
 
