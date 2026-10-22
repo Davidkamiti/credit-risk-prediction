@@ -4,9 +4,8 @@ A machine learning model that estimates the probability a loan applicant will de
 
 **Live demo:** https://credit-risk-prediction-xsm9tmmnd8gxkixqihejkg.streamlit.app/
 
-<!-- After you take a screenshot of the app, save it as images/app_screenshot.png, then delete this line and the closing line below to show it:
-![App screenshot](images/app_screenshot.png)
--->
+
+![App screenshot]("C:\Users\USER\OneDrive\Pictures\Screenshots\imagesapp_screenshot.png.png")
 
 ## The problem
 
