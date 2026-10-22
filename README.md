@@ -6,7 +6,7 @@ A machine learning model that estimates the probability a loan applicant will de
 
 ![App screenshot]("C:\Users\USER\OneDrive\Pictures\Screenshots\imagesapp_screenshot.png.png")
 
-
+.
 ## The problem
 
 Lenders lose money when borrowers default, but turning away good borrowers also costs them business. This project predicts default risk from an applicant's profile and loan details, so a lender can flag high-risk applications for review.
